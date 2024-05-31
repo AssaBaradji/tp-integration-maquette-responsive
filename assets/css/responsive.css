@@ -1,7 +1,7 @@
 /* index */
 @media (max-width: 600px) {
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
     }
 
@@ -45,18 +45,24 @@
     }
 }
 /* sign-up */
-@media (max-width: 900px) {
+@media only screen and (max-width: 768px) {
     #sign-up {
         flex-direction: column;
-       justify-content: center;
+        align-items: center;
+    }
+
+    #sign-up .left-sign-up {
+        width: 100%;
+    }
+
+    #sign-up .right-sign-up {
+        width: 100%;
+    }
+
+    form .button {
+        margin-left: 0;
     }
 }
- #sign-up .right-sign-up {
-        width: 80vw;
-        max-width: inherit;
-        margin: 2rem 0;
-
- }
 
 /* feature */
 @media  (max-width: 800px) {
