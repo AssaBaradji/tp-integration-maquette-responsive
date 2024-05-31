@@ -3,6 +3,7 @@
     nav ul {
         flex-direction: row;
         gap: 20px;
+
     }
 
     #landing-page {
@@ -59,10 +60,6 @@
         width: 80%;
         padding: 0;
         margin-bottom: 50px;
-    }
-
-    form .button {
-        /* margin-left: 0; */
     }
 }
 
