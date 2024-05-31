@@ -11,7 +11,7 @@
     }
 
     #landing-page .landing-page-right {
-        width: 90%;
+        width: 80%;
         text-align: center;
         order: 1;
     }
@@ -56,11 +56,13 @@
     }
 
     #sign-up .right-sign-up {
-        width: 100%;
+        width: 80%;
+        padding: 0;
+        margin-bottom: 50px;
     }
 
     form .button {
-        margin-left: 0;
+        /* margin-left: 0; */
     }
 }
 
@@ -70,9 +72,12 @@
         flex-direction: column;
         justify-content: center;
     }
+    #feature .feature-left{
+        width: 80%;
+    }
     #feature .feature-right{
         margin-top: 2rem;
         height: 30vh;
-        width: auto;
+        width: 80%;
     }
 }
